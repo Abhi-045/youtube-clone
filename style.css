@@ -1,0 +1,195 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+    font-family: 'poppins','sans-serif';
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: rgb(33, 33, 33) ;
+    color: white;
+}
+
+img{
+    cursor:pointer;
+}
+
+.d-flex{
+    display: flex;
+    align-items:center;
+}
+nav{
+    /*border: 2px solid red;*/
+    padding: 10px 20px;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+    z-index:100%;
+    background-color: rgb(33, 33, 33);
+
+}
+.nav-right img{
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav-right.userImg{
+    border-radius: 50%;
+
+}
+
+.nav-left img{
+    width: 25px;
+    
+}
+.nav-left .ytLogo{
+    width: 50px;
+    align-items: center;
+}
+
+.nav-middle { 
+    /* border: 2px solid red; */
+    width: 50%;
+
+}
+.nav-middle .mic-icon{
+    width: 42px;
+}
+.search-box {
+    width: 80%;
+    border: 1px solid grey; 
+    border-radius: 50px;
+    justify-content: space-between;
+    padding-left: 1rem;
+}
+.search-box input {
+    width: 80%;
+    border: none;
+    padding: 0.4rem;
+    outline: none;
+    margin: right 20px;
+    border-radius: 50px ;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.search-box img{
+    padding: 15px;
+    width: 8%;
+     /* border: 2px solid green;  */
+    border-radius: 50px;
+    
+}
+
+.search-Div{
+    width:15%;
+    background-color: rgb(72, 72, 72);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; 
+    justify-content: center;
+
+
+}
+
+.mic-div{
+    /* border:2px solid green; */
+    width: 50px;
+    height: 50px;
+    justify-content: center  ;
+    border-radius: 50%;
+}
+.mic-icon{
+     /* border: 2px solid red; */
+    padding: 10px;
+    border-radius: 50px ;
+    
+}
+.sidebar{
+    /* border: 2px solid red; */
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    padding: 10px;
+    padding-top: 80px;
+    
+}
+.smaller-sidebar{
+    width: 5px;
+}
+.smaller-sidebar a p{
+    display: none;
+}
+.sidebar-upper a{
+    padding: 12px;
+    margin-bottom: 2px;
+
+
+
+}
+
+.sidebar-upper a img{
+    width: 20px;
+    margin-right: 20px;
+}
+.sidebar-upper a:first-child{
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    background-color: #2e2e2e;
+
+}
+.sidebar-upper a:hover{
+    border-radius: 10px;
+    background-color: #2e2e2e;
+
+}
+.mainContainer{
+    /* border: 2px solid blue;  */
+    margin-left: 17%;
+    flex-wrap: wrap;
+    
+
+}
+.larger-mainContainer{
+    /* border: 2px solid red; */
+    margin-left: 7%;
+    flex-wrap: wrap;
+}
+.mainContainer .card
+{
+    /* border: 2px solid green; */
+    width: 250px;
+    margin-right:25px ;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.mainContainer .larger-card
+{
+    /* border: 2px solid green; */
+    width: 250px;
+    margin-right:25px ;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.thumbnailimage{
+    /* border: 2px solid red; */
+    width: 100%;
+    border-radius: 3%;
+}
+.logoContainer{
+      align-items: flex-start;
+}
+.logoContainer .userImg{
+    border-radius: 50%;
+    width: 25px;
+    margin-right: 15px;}
